@@ -1,0 +1,303 @@
+/*!
+ Licensed under MIT
+ Customized by Jonathan Yang
+ */
+
+body {
+    font-family: "Bree Serif",serif;
+    background: url('../img/bg1.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Ubuntu Condensed';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.3;
+    color: #000;
+}
+
+hr {
+    max-width: 400px;
+    border-color: #999999;
+}
+
+.brand {
+  display: none;
+  font-family: 'Amatic SC',cursive;
+}
+
+.address-bar {
+    display: none;
+    font-family: 'Ubuntu Condensed', cursive;
+}
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.navbar-nav {
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.img-full {
+    min-width: 100%;
+}
+
+.brand-before,
+.brand-name {
+    text-transform: capitalize;
+}
+
+.brand-before {
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+
+.brand-after{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.brand-name {
+    margin: 0px;
+    font-size: 4em;
+}
+
+.tagline-divider {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    max-width: 250px;
+    border-color: #999999;
+}
+
+.box {
+    margin-bottom: 20px;
+    padding: 30px 15px;
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+.intro-text {
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.intro-img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.img-border {
+    float: none;
+    margin: 0 auto 0;
+    border: #999999 solid 1px;
+}
+
+.img-left {
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.img-center {
+  float:none;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+.img-icon {
+  position: relative;
+  /* Adjust these values accordingly */
+  top: 5px;
+  left: 5px;
+}
+
+.img-cushion {
+  margin-bottom: 50px;
+}
+
+.h3-center{
+  float:none;
+  vertical-align: middle;
+/*
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  */
+}
+
+.h3-position{
+  float:none;
+  margin-right: 0px;
+  margin-top: -50px
+  margin-left: 0 px;
+}
+
+.p-center{
+  float: none;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+footer {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+@media screen and (min-width:768px) {
+    .brand {
+        display: inherit;
+        margin: 0;
+        padding: 0px 0px 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: 'Ubuntu Condensed';
+        font-size: 5em;
+        font-weight: 700;
+        line-height: normal;
+        color: #fff;
+    }
+
+    .top-divider {
+        margin-top: 0;
+    }
+
+    .img-left {
+        float: left;
+        margin-right: 25px;
+    }
+
+    .address-bar {
+        display: inherit;
+        margin: 0;
+        padding: 0 0 40px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        text-transform: uppercase;
+        font-size: 1.25em;
+        font-weight: 400;
+        letter-spacing: 3px;
+        color: #fff;
+    }
+
+    .navbar {
+        border-radius: 0;
+    }
+
+    .navbar-header {
+        display: none;
+    }
+
+    .navbar {
+        min-height: 0;
+    }
+
+    .navbar-default {
+        border: none;
+        background: #fff;
+        background: rgba(255,255,255,0.9);
+    }
+
+    .nav>li>a {
+        padding: 35px;
+    }
+
+    .navbar-nav>li>a {
+        line-height: normal;
+    }
+
+    .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+        font-size: 1.25em;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .box:after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+
+.mg-clear{
+	margin: 0px;
+}
+
+.voffset-lg{
+	margin-top:0px;
+  margin-bottom: 0px;
+}
+
+.img-bottom{
+  margin: -10px;
+}
+
+.icons{
+  text-align: right;
+  margin-right: 300px;
+}
+
+.button{
+      width:175px;
+      height:65px;
+      margin:20px auto;
+      border-radius:10px;
+      -webkit-border-radius:10px;
+      box-shadow:0 1px 2px #5e5d5b;
+      text-align: center;
+      line-height: 65px;
+}
+
+@keyframes colorFade {
+    0%   { color: #8597a4; }
+    50%  { color: #fa575d; }
+    100% { color: #8597a4; }
+}
+
+@-moz-keyframes colorFade {
+    0%   { color: #8597a4; }
+    50%  { color: #fa575d; }
+    100% { color: #8597a4; }
+}
+
+@-webkit-keyframes colorFade {
+    0%   { color: #8597a4; }
+    50%  { color: #fa575d; }
+    100% { color: #8597a4; }
+}
+
+.colorFade {
+    animation:         colorFade 2.5s infinite;
+    -moz-animation:    colorFade 2.5s infinite;
+    -webkit-animation: colorFade 2.5s infinite;
+}
